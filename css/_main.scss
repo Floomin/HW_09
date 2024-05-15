@@ -1,0 +1,125 @@
+main {
+  margin-top: 60px;
+
+  .goods {
+    .goods__titel {
+      font-size: 1.2rem;
+      line-height: 1.25rem;
+      margin-bottom: 40px;
+    }
+    .goods_list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 100px;
+
+      .goods__item {
+        background-color: $color-bg-aditionale;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 19px;
+        padding-bottom: 19px;
+        div {
+          padding: 10px 30px;
+        }
+        img {
+          width: 125px;
+        }
+        p {
+          color: $color-secondary;
+          width: 195px;
+        }
+
+        .button-sm {
+          background-color: $color-bg-secondarry;
+          width: 130px;
+          cursor: pointer;
+          border-radius: 35px;
+
+          a {
+            text-decoration: none;
+            font-size: 15px;
+            color: $color-aditionale;
+          }
+        }
+        .button-sm:hover {
+          background-color: $color-bg-aditionale;
+          border: 2px solid $color-bg-secondarry;
+          a {
+            color: $color-bg-secondarry;
+          }
+        }
+      }
+    }
+  }
+
+  .brands {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    .brands__list {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+
+      .list__item {
+        background-color: $color-bg-aditionale;
+        flex: 0 0 25%;
+        padding: 35px 0;
+        border: 0.5px solid $color-aditionale;
+
+        a {
+          text-align: center;
+          display: block;
+        }
+      }
+      .list__item:hover {
+        border: 0.5px solid $color-bg-secondarry;
+      }
+    }
+  }
+
+  .feedback {
+    display: flex;
+    justify-content: space-between;
+
+    .feedback__item {
+      width: 49%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 40px 45px 35px;
+      background-color: $color-bg-secondarry;
+      .item__content {
+        p {
+          padding: 15px 0;
+          width: 55%;
+        }
+        input {
+          text-align: center;
+          line-height: 35px;
+          border-radius: 35px;
+          width: 85%;
+          margin: 15px 0;
+        }
+        .button-m {
+          width: 170px;
+          line-height: 35px;
+          border-radius: 35px;
+          border: 2px solid $color-bg-aditionale;
+          text-align: center;
+          a {
+            text-decoration: none;
+            color: $color-bg-aditionale;
+          }
+        }
+        h3 {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}

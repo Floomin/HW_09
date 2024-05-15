@@ -1,0 +1,73 @@
+.header {
+  .top-line {
+    margin: 1.315% auto;
+    .top-line__menu {
+      .menu__list {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        li {
+          margin-right: 1.6%;
+
+          a {
+            text-decoration: none;
+            color: $color-secondary;
+          }
+        }
+      }
+    }
+  }
+
+  .navbar {
+    background-color: $color-bg-aditionale;
+    padding: 20px 0 30px 0;
+    .contact__bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  .menu__list {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    list-style: none;
+
+    .menu__item {
+      .item__link {
+        padding-inline: 20px;
+        text-decoration: none;
+        color: $color-primary;
+      }
+    }
+  }
+
+  .sales {
+    padding: 200px 0;
+    background: no-repeat url(../image/Rectangle.png);
+    color: $color-bg-aditionale;
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    p {
+      font-size: 0.875rem;
+      width: 25%;
+      line-height: 1.5rem;
+      padding-bottom: 25px;
+    }
+    .button-m {
+      width: 170px;
+      line-height: 40px;
+      border-radius: 40px;
+      border: 2px solid $color-bg-aditionale;
+      text-align: center;
+      a {
+        text-decoration: none;
+        color: $color-bg-aditionale;
+      }
+    }
+  }
+}
